@@ -73,3 +73,8 @@ Desktop.ini
 # Dedicated unversioned folder
 /unversioned/**/*
 cfg/admin.txt
+
+# Rust output and test output files.
+/rust/src/mapmanip/test/*_out.dmm
+/rust/target/*
+rustlibs_panic.txt
